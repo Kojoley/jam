@@ -334,7 +334,7 @@ make1c( TARGET *t )
 
 	    t->progress = T_MAKE_DONE;
 
-	    for( c = t->parents; c; c = c->next )
+	    for( c = t->parents; !intr && c; c = c->next )
 		make1b( c->target );
 	}
 }

@@ -1,13 +1,13 @@
 #
 # /+\
-# +\	Copyright 1993-2002 Christopher Seiwald and Perforce Software, Inc.
+# +\	Copyright 1993-2019 Christopher Seiwald and Perforce Software, Inc.
 # \+/
 #
 # This file is part of Jam - see jam.c for Copyright information.
 #
 
 #
-# JAMBASE - jam 2.5 ruleset providing make(1)-like functionality
+# JAMBASE - jam 2.6.1 ruleset providing make(1)-like functionality
 #
 # Supports UNIX, NT, and VMS.
 #
@@ -142,7 +142,7 @@
 #	$(>) - sources of a rule (to the right of the :)
 #	$(xxx) - true on xxx (UNIX, VMS, NT, OS2, MAC)
 #	$(OS) - name of OS - varies wildly
-#	$(JAMVERSION) - version number (2.5)
+#	$(JAMVERSION) - version number (2.6.1)
 #
 # Special variables used by jam:
 #	SEARCH - where to find something (used during binding and actions)
@@ -156,7 +156,7 @@
 
 # for perforce use -- jambase version
 
-JAMBASEDATE = 2012.10.04  ;
+JAMBASEDATE = 2015.04.16  ;
 
 # Initialize variables
 #

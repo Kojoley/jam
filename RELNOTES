@@ -1,5 +1,25 @@
 ===============================================================================
 ===============================================================================
+
+Release notes for Jam 2.6.1
+(aka Jam - make(1) redux)
+
+1.  Release info:
+
+	Jam 2.6.1
+	June, 2019
+	VERSION 2.6.1
+
+2.  Changes since 2.6.1
+
+	A ctrl-c will interrupt the build faster than before.
+
+	VS2015+ build improvements.
+
+	The Jambase date has been updated to match the last functional change.
+
+===============================================================================
+===============================================================================
 
 
 Release notes for Jam 2.6
